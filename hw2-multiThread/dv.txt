@@ -1,0 +1,14 @@
+My expression is "(/ 33 (- 10 5 5))"
+Starting "/" operation
+My expression is "33"
+Sending "33" on pipe to parent
+My expression is "(- 10 5 5)"
+Starting "-" operation
+My expression is "10"
+Sending "10" on pipe to parent
+My expression is "5"
+Sending "5" on pipe to parent
+My expression is "5"
+Sending "5" on pipe to parent
+Processed "(- 10 5 5)"; sending "0" on pipe to parent
+ERROR: division by zero is not allowed; exiting
